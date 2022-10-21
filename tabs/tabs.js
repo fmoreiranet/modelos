@@ -7,6 +7,6 @@
 })();
 
 function selectTab(event, obj) {
-    console.log(event);
+    console.log(event.target);
     console.log(obj);
 }
